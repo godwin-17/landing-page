@@ -71,7 +71,7 @@ header {
   color: #E5E7EB;
 }
 
-button {
+.header-button {
   font-size: 18px;
   background-color: #3882F6;
   border-radius: 5px;
@@ -167,4 +167,44 @@ header .container {
   font-size: 18px;
   font-weight: bold;
   text-align: right;
+}
+
+/* SECTION 3 */
+.section-3 {
+  padding: 50px;
+  padding-bottom: 50px;
+}
+
+.section-container-3 {
+  max-width: 1100px;
+  margin: 0 auto;
+
+}
+
+.card-text {
+  font-weight: bold;
+  font-size: 18px;
+  color: #F9FAF8;
+}
+
+.card-sec-text {
+  color: #E5E7EB;
+}
+
+.card-button {
+  font-size: 18px;
+  background-color: #3882F6;
+  border-radius: 10px;
+  color: #E5E7EB;
+  font-weight: bold;
+  padding: 10px 25px;
+  border: 3px solid #ffffff;
+}
+
+.card {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 0px;
+  background-color: #3882F6;
+  border-radius: 10px;
 }
