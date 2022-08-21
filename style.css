@@ -10,4 +10,91 @@ html {
 
 body {
   font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+/* NAVBAR */
+
+
+.navbar,
+.header {
+  background-color: #1F2937;
+}
+
+.nav-logo {
+  font-size: 24px;
+  color: #F9FAF8;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  gap: 10px;
+}
+
+/* HEADER */
+
+header {
+  padding-top: 70px;
+  padding-bottom: 60px;
+}
+
+.hero-main {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
+
+.hero-secondary {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+button {
+  font-size: 18px;
+  background-color: #3882F6;
+  border-radius: 5px;
+  color: #E5E7EB;
+  font-weight: bold;
+  padding: 10px 25px;
+  border: none;
+}
+
+.img {
+  height: auto;
+  width: 450px;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+  gap: 10px;
 }
